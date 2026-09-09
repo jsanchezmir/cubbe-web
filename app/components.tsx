@@ -9,5 +9,5 @@ export function Header() {
 }
 
 export function Footer() {
-  return <footer className="site-footer wrap"><span>© 2026 Cubbe</span><div className="footer-links"><Link href="/privacy">Privacy</Link><Link href="/terms">Terms</Link><Link href="/support">Support</Link></div></footer>;
+  return <footer className="site-footer wrap"><span>© 2026 Jordi Sanchez for Cubbe</span><div className="footer-links"><Link href="/privacy">Privacy</Link><Link href="/terms">Terms</Link><Link href="/support">Support</Link></div></footer>;
 }
