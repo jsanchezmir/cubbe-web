@@ -1,0 +1,21 @@
+app/globals.css
+  s_87bb7caf04c6b0::t_9472604e257aa5 12,14-16,38-41,53
+app/page.tsx
+  s_87bb7caf04c6b0::t_9472604e257aa5 2,12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "79458b7970000c5c95708cbf19c3fe80f1ddb5bf",
+  "prompts": {},
+  "sessions": {
+    "s_87bb7caf04c6b0": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a083a7-4266-7331-bd13-f1e56acfb0e5",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Jordi Sánchez <23667568+jsanchezmir@users.noreply.github.com>"
+    }
+  }
+}
