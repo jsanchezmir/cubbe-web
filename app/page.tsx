@@ -1,0 +1,12 @@
+import Link from "next/link";
+import { Footer, Header } from "./components";
+
+const features = [
+  ["01", "A place for everything", "Build a simple map of your belongings across addresses, rooms, locations, and boxes."],
+  ["02", "Find it without digging", "Add photos, descriptions, tags, and categories. Search your inventory when you need it."],
+  ["03", "Keep spaces in sync", "Share addresses with the people you live with and keep a shared view of what is where."],
+];
+
+export default function Home() {
+  return <main className="page"><Header /><section className="hero wrap"><p className="eyebrow">Your things, finally in order</p><h1>Know where everything lives.</h1><p className="hero-copy">Cubbe is a calmer way to organize your home, storage, and shared spaces. Catalog what you own and find it when it matters.</p><div className="actions"><Link className="button button-primary" href="#features">Explore Cubbe <span>↗</span></Link><Link className="button button-secondary" href="/support">Get support</Link></div></section><section className="section" id="features"><div className="wrap"><div className="section-heading"><p className="eyebrow">Less searching. More living.</p><h2>Make space for peace of mind.</h2><p>A clear system for the things you already have — from the spare room to the storage unit.</p></div><div className="feature-grid">{features.map(([number, title, text]) => <article className="feature" key={number}><span className="feature-number">{number}</span><h3>{title}</h3><p>{text}</p></article>)}</div></div></section><section className="section" id="ai"><div className="wrap ai-panel"><div><p className="eyebrow">Powered by AI</p><div className="section-heading"><h2>Catalog in a few photos.</h2><p>Take photos of your belongings and let Cubbe’s AI do the tedious part. It extracts useful details, creates item entries, and suggests tags and descriptions so your inventory stays useful from day one.</p></div><Link className="text-link" href="/support">Questions about the AI assistant →</Link></div><div className="ai-card"><div className="ai-card-top"><span>cubbe / assistant</span><span>ready</span></div><div className="ai-orb">AI</div><p>Photo → item<br />description · tags · category</p></div></div></section><section className="wrap cta"><h2>A better home starts with knowing what you have.</h2><Link className="button button-primary" href="/support">Need a hand? <span>→</span></Link></section><Footer /></main>;
+}

@@ -1,0 +1,7 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { Footer, Header } from "../components";
+
+export const metadata: Metadata = { title: "Terms of Use" };
+
+export default function Terms() { return <main className="page"><Header /><article className="prose wrap"><Link className="back" href="/">← Back to Cubbe</Link><p className="eyebrow">Terms</p><h1>Terms of use</h1><p className="updated">Last updated: September 9, 2026</p><h2>Using Cubbe</h2><p>You may use Cubbe to organize your own belongings and spaces you are authorized to access. Keep your account information accurate and protect your sign-in credentials.</p><h2>Your content</h2><p>You retain ownership of the content you add to Cubbe. You give Cubbe the permission needed to store, display, process, and share that content to provide the app’s features.</p><h2>AI suggestions</h2><p>AI-generated item details are suggestions and may be incomplete or inaccurate. Review information before relying on it, especially for valuable, hazardous, or sensitive belongings.</p><h2>Subscriptions</h2><p>Some features may require a paid plan. Subscription terms, prices, renewals, and cancellation are shown in the app and managed through your Apple account.</p><h2>Contact</h2><p>For questions, contact <a className="text-link" href="mailto:support@cubbe.app">support@cubbe.app</a>.</p></article><Footer /></main>; }

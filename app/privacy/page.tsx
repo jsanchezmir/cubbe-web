@@ -1,0 +1,7 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { Footer, Header } from "../components";
+
+export const metadata: Metadata = { title: "Privacy Policy" };
+
+export default function Privacy() { return <main className="page"><Header /><article className="prose wrap"><Link className="back" href="/">← Back to Cubbe</Link><p className="eyebrow">Privacy</p><h1>Privacy policy</h1><p className="updated">Last updated: September 9, 2026</p><h2>What Cubbe stores</h2><p>Cubbe stores the information you add to your account, including your name, email address, addresses, locations, boxes, items, photos, descriptions, and tags. This information is used to provide the organization and sharing features of the app.</p><h2>AI-assisted cataloging</h2><p>When you use the AI assistant, photos and the related item information are processed to identify useful details and suggest descriptions, categories, and tags. You can review, edit, or remove the resulting information.</p><h2>How we use information</h2><p>We use account and inventory information to operate, secure, maintain, and improve Cubbe. We do not sell your personal information.</p><h2>Your choices</h2><p>You can edit or delete your content in the app. To request account or data deletion, contact <a className="text-link" href="mailto:support@cubbe.app">support@cubbe.app</a>.</p><h2>Contact</h2><p>Questions about privacy can be sent to <a className="text-link" href="mailto:support@cubbe.app">support@cubbe.app</a>.</p></article><Footer /></main>; }
