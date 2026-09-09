@@ -4,6 +4,55 @@ import { Footer, Header } from "../components";
 
 export const metadata: Metadata = { title: "About Jordi Sanchez" };
 
+const socialLinks = [
+  ["GitHub", "@jsanchezmir", "https://github.com/jsanchezmir"],
+  ["LinkedIn", "Connect with me", "https://www.linkedin.com/in/jordisanchezmir/"],
+  ["Instagram", "@j00ye", "https://www.instagram.com/j00ye/"],
+];
+
 export default function About() {
-  return <main className="page"><Header /><article className="about-page wrap"><Link className="back" href="/">← Back to Cubbe</Link><div className="about-intro"><img className="about-photo" src="/assets/jordi-sanchez.png" alt="Jordi Sanchez" /><div><p className="eyebrow">The person behind Cubbe</p><h1>Jordi Sanchez</h1><p className="about-lede">Developer, builder, and lifelong organizer of ideas.</p></div></div><div className="about-copy"><p>I like turning small frustrations into simple, well-made tools. Cubbe is one of those ideas: a way to bring a little more clarity to the things we own and the spaces we share.</p><p>Outside of code, I’m passionate about sports — especially cycling and football. I’m also a proud FC Barcelona fan.</p></div><div className="about-links"><a href="https://github.com/jsanchezmir" target="_blank" rel="noreferrer"><span>GitHub</span><small>@jsanchezmir</small>↗</a><a href="https://www.linkedin.com/in/jordisanchezmir/" target="_blank" rel="noreferrer"><span>LinkedIn</span><small>Connect with me</small>↗</a><a href="https://www.instagram.com/j00ye/" target="_blank" rel="noreferrer"><span>Instagram</span><small>@j00ye</small>↗</a></div></article><Footer /></main>;
+  return (
+    <main className="page">
+      <Header />
+      <article className="about-page wrap">
+        <Link className="back" href="/">← Back to Cubbe</Link>
+
+        <header className="about-intro">
+          <img className="about-photo" src="/assets/jordi-sanchez.png" alt="Jordi Sanchez" />
+          <div>
+            <p className="eyebrow">The person behind Cubbe</p>
+            <h1>Jordi Sanchez</h1>
+            <p className="about-lede">Senior iOS and Web Engineer.</p>
+          </div>
+        </header>
+
+        <div className="about-copy">
+          <section className="about-block">
+            <p className="eyebrow">A little context</p>
+            <h2>Building things that feel clear.</h2>
+            <p>I’m a Senior iOS and Web Engineer who enjoys turning ideas into simple, useful, and carefully crafted products. I care about the details that make software feel natural: a thoughtful interaction, a clear piece of information, and a design that gets out of the way.</p>
+            <p>Cubbe started from a small everyday frustration — not knowing exactly where things were stored. It became an opportunity to build something calmer: a practical system for organizing the objects, places, and shared spaces that make up our lives.</p>
+          </section>
+
+          <section className="about-block">
+            <p className="eyebrow">Outside the screen</p>
+            <h2>Movement, competition, and a good match.</h2>
+            <p>When I’m not building software, I’m passionate about sports. Cycling gives me time to explore and reset; football brings the energy, tactics, and emotion that make sport so compelling.</p>
+            <p>And when it comes to football, I’m a proud FC Barcelona fan.</p>
+          </section>
+        </div>
+
+        <section className="about-links" aria-label="Social links">
+          {socialLinks.map(([name, detail, url]) => (
+            <a href={url} key={name} target="_blank" rel="noreferrer">
+              <span>{name}</span>
+              <small>{detail}</small>
+              ↗
+            </a>
+          ))}
+        </section>
+      </article>
+      <Footer />
+    </main>
+  );
 }
