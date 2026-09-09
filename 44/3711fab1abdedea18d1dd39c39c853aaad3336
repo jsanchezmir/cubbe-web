@@ -1,0 +1,25 @@
+app/globals.css
+  h_a9c0dc1ee6ce6b 58,61
+  s_87bb7caf04c6b0::t_cd29f4c8875120 59,64
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "443711fab1abdedea18d1dd39c39c853aaad3336",
+  "prompts": {},
+  "humans": {
+    "h_a9c0dc1ee6ce6b": {
+      "author": "Jordi Sánchez <23667568+jsanchezmir@users.noreply.github.com>"
+    }
+  },
+  "sessions": {
+    "s_87bb7caf04c6b0": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a083a7-4266-7331-bd13-f1e56acfb0e5",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Jordi Sánchez <23667568+jsanchezmir@users.noreply.github.com>"
+    }
+  }
+}
