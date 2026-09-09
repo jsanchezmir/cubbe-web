@@ -12,6 +12,6 @@ export default function Terms() {
     <h2>Availability and data</h2><p>Cubbe is provided on an “as available” basis. We do not guarantee that the app, AI features, stored content, synchronization, or sharing features will always be available, uninterrupted, secure, or error-free. You should keep independent copies of important information and photos.</p>
     <h2>Subscriptions</h2><p>Some features may require a paid plan. Subscription terms, prices, renewals, and cancellation are shown in the app and managed through your Apple account.</p>
     <h2>Disclaimers and limitation of liability</h2><p>To the fullest extent permitted by applicable law, Cubbe and its owner are not responsible for indirect, incidental, special, consequential, exemplary, or punitive damages, or for loss of data, belongings, profits, revenue, goodwill, or opportunities arising from or related to your use of Cubbe, your content, an AI response, an incorrect item record, or an interruption of the service.</p><p>Nothing in these terms excludes or limits liability that cannot legally be excluded or limited under applicable law.</p>
-    <h2>Contact</h2><p>For questions about these terms, contact <a className="text-link" href="mailto:jordisanchezmir@gmail.com">jordisanchezmir@gmail.com</a>.</p>
+    <h2>Contact</h2><p>For questions about these terms, contact <a className="text-link" href="mailto:support@cubbe.app">support@cubbe.app</a>.</p>
   </article><Footer /></main>;
 }
