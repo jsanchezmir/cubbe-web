@@ -1,0 +1,23 @@
+next-env.d.ts
+  s_87bb7caf04c6b0::t_d7b4ab571961dd 1-7
+package-lock.json
+  s_87bb7caf04c6b0::t_2cf32797755c57 1-1437
+tsconfig.json
+  s_87bb7caf04c6b0::t_05d83b1bb6a0b0 1-36
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "f715ef4004866de6655beaa9817fe4dafcaa1305",
+  "prompts": {},
+  "sessions": {
+    "s_87bb7caf04c6b0": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a083a7-4266-7331-bd13-f1e56acfb0e5",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Jordi Sánchez <23667568+jsanchezmir@users.noreply.github.com>"
+    }
+  }
+}
