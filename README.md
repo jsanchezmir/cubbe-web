@@ -26,6 +26,7 @@ The AI assistant makes cataloging faster: take photos of your belongings and Cub
 | Route | Purpose |
 | --- | --- |
 | `/` | Marketing landing page |
+| `/about` | About Jordi Sanchez |
 | `/support` | Customer support and common questions |
 | `/privacy` | Privacy policy |
 | `/terms` | Terms of use |
