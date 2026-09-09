@@ -9,8 +9,11 @@ a { color: inherit; text-decoration: none; }
 .brand-mark { display: grid; place-items: center; width: 28px; height: 28px; border-radius: 9px; background: var(--indigo); color: white; font-size: 15px; }
 .nav { display: flex; gap: 26px; color: var(--muted); font-size: 14px; }
 .nav a:hover, .text-link:hover { color: white; }
-.hero { position: relative; padding: 106px 0 132px; overflow: hidden; }
+.hero { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) 390px; gap: 55px; align-items: center; padding: 106px 0 132px; overflow: hidden; }
 .hero:after { content: ""; position: absolute; width: 480px; height: 480px; right: -170px; top: 30px; border-radius: 50%; background: var(--indigo); opacity: .18; filter: blur(80px); pointer-events: none; }
+.hero-content, .hero-shot { position: relative; z-index: 1; }
+.hero-shot { height: 630px; border-radius: 25px; overflow: hidden; transform: rotate(4deg); box-shadow: 0 30px 80px #00000077; }
+.hero-shot img { object-fit: cover; object-position: top center; }
 .eyebrow { margin: 0 0 24px; color: var(--indigo-soft); font: 500 12px var(--font-mono), monospace; letter-spacing: .13em; text-transform: uppercase; }
 h1, h2, h3 { font-family: var(--font-bric), sans-serif; letter-spacing: -.055em; }
 h1 { max-width: 800px; margin: 0; font-size: clamp(58px, 9vw, 112px); line-height: .91; font-weight: 650; }
@@ -32,10 +35,10 @@ h1 { max-width: 800px; margin: 0; font-size: clamp(58px, 9vw, 112px); line-heigh
 .feature h3 { margin: 54px 0 11px; font-size: 28px; }
 .feature p { margin: 0; color: var(--muted); line-height: 1.55; }
 .ai-panel { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
-.ai-card { min-height: 355px; padding: 30px; border: 1px solid #3f3f46; border-radius: 22px; background: linear-gradient(145deg, #17172b, #0c0c0e 70%); }
-.ai-card-top { display: flex; justify-content: space-between; color: var(--muted); font: 12px var(--font-mono), monospace; }
-.ai-orb { display: grid; place-items: center; width: 140px; height: 140px; margin: 58px auto 31px; border: 1px solid var(--indigo-soft); border-radius: 50%; box-shadow: 0 0 70px #635bff66, inset 0 0 45px #635bff33; color: var(--indigo-soft); font: 14px var(--font-mono), monospace; }
-.ai-card p { margin: 0; text-align: center; color: #e4e4e7; font-size: 15px; }
+.ai-card { position: relative; min-height: 570px; border: 1px solid #3f3f46; border-radius: 22px; overflow: hidden; background: #17172b; box-shadow: 0 25px 70px #00000055; }
+.ai-card img { object-fit: cover; object-position: top center; }
+.gallery-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.gallery-grid img { width: 100%; height: auto; border-radius: 22px; box-shadow: 0 22px 55px #00000055; }
 .cta { display: flex; justify-content: space-between; gap: 30px; align-items: center; padding: 35px 0 100px; }
 .cta h2 { max-width: 550px; margin: 0; font-size: clamp(32px, 4vw, 52px); line-height: 1; }
 .site-footer { display: flex; justify-content: space-between; gap: 20px; padding: 24px 0 38px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
@@ -47,4 +50,4 @@ h1 { max-width: 800px; margin: 0; font-size: clamp(58px, 9vw, 112px); line-heigh
 .prose ul { padding-left: 20px; color: var(--muted); line-height: 1.8; }
 .back { display: inline-block; margin-bottom: 58px; color: var(--indigo-soft); font: 13px var(--font-mono), monospace; }
 .updated { color: var(--muted); font: 12px var(--font-mono), monospace; }
-@media (max-width: 760px) { .nav { gap: 14px; } .nav a:nth-child(2) { display: none; } .hero { padding: 72px 0 96px; } .feature-grid, .ai-panel { grid-template-columns: 1fr; } .ai-panel { gap: 38px; } .cta, .site-footer { align-items: flex-start; flex-direction: column; } }
+@media (max-width: 760px) { .nav { gap: 14px; } .nav a:nth-child(2) { display: none; } .hero { display: block; padding: 72px 0 96px; } .hero-shot { height: 560px; max-width: 390px; margin: 64px auto 0; } .feature-grid, .ai-panel, .gallery-grid { grid-template-columns: 1fr; } .ai-panel { gap: 38px; } .ai-card { min-height: 560px; } .cta, .site-footer { align-items: flex-start; flex-direction: column; } }
