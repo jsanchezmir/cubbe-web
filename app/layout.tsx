@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className={`${bric.variable} ${mono.variable}`}>{children}</body>
+      <body className={`${bric.variable} ${mono.variable}`}><script dangerouslySetInnerHTML={{ __html: `(() => { try { const theme = localStorage.getItem("cubbe-theme"); document.documentElement.dataset.theme = theme === "dark" ? "dark" : "light"; } catch (_) { document.documentElement.dataset.theme = "light"; } })()` }} />{children}</body>
     </html>
   );
 }
