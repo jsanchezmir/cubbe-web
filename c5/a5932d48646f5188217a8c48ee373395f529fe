@@ -1,0 +1,21 @@
+app/privacy/page.tsx
+  s_bc2578b5345ec3::t_2cbf1dd1cfaffa 13,15
+app/terms/page.tsx
+  s_bc2578b5345ec3::t_2cbf1dd1cfaffa 15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "c5a5932d48646f5188217a8c48ee373395f529fe",
+  "prompts": {},
+  "sessions": {
+    "s_bc2578b5345ec3": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0863f-2e22-76a1-b2e8-9f1f1843d305",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Jordi Sánchez <23667568+jsanchezmir@users.noreply.github.com>"
+    }
+  }
+}
