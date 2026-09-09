@@ -10,8 +10,6 @@ const socialLinks = [
   ["Instagram", "@j00ye", "https://www.instagram.com/j00ye/"],
 ];
 
-const basePath = process.env.GITHUB_ACTIONS ? "/cubbe-web" : "";
-
 export default function About() {
   return (
     <main className="page">
@@ -20,7 +18,7 @@ export default function About() {
         <Link className="back" href="/">← Back to Cubbe</Link>
 
         <header className="about-intro">
-          <img className="about-photo" src={`${basePath}/assets/jordi-sanchez.png`} alt="Jordi Sanchez" />
+          <img className="about-photo" src="/assets/jordi-sanchez.png" alt="Jordi Sanchez" />
           <div>
             <p className="eyebrow">The person behind Cubbe</p>
             <h1>Jordi Sanchez</h1>

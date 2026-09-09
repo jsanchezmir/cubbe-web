@@ -2,10 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { ThemeToggle } from "./theme-toggle";
 
-const basePath = process.env.GITHUB_ACTIONS ? "/cubbe-web" : "";
-
 export function Header() {
-  return <header className="site-header wrap"><Link className="brand" href="/"><span className="brand-mark"><Image src={`${basePath}/assets/icon/cubbe-mark.svg`} alt="" width={22} height={22} /></span>Cubbe</Link><nav className="nav"><Link href="/#features">Features</Link><Link href="/#ai">AI assistant</Link><Link href="/support">Support</Link></nav><ThemeToggle /></header>;
+  return <header className="site-header wrap"><Link className="brand" href="/"><span className="brand-mark"><Image src="/assets/icon/cubbe-mark.svg" alt="" width={22} height={22} /></span>Cubbe</Link><nav className="nav"><Link href="/#features">Features</Link><Link href="/#ai">AI assistant</Link><Link href="/support">Support</Link></nav><ThemeToggle /></header>;
 }
 
 export function Footer() {

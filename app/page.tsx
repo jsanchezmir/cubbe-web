@@ -2,8 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Footer, Header } from "./components";
 
-const basePath = process.env.GITHUB_ACTIONS ? "/cubbe-web" : "";
-const asset = (name: string) => `${basePath}/assets/app-marketing-screenshots/${name}`;
+const asset = (name: string) => `/assets/app-marketing-screenshots/${name}`;
 
 const features = [
   ["01", "A place for everything", "Build a simple map of your belongings across addresses, rooms, locations, and boxes."],

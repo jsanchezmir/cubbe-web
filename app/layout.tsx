@@ -8,7 +8,7 @@ const mono = DM_Mono({ subsets: ["latin"], weight: ["400", "500"], variable: "--
 export const metadata: Metadata = {
   title: { default: "Cubbe — Know where everything lives", template: "%s — Cubbe" },
   description: "A calmer way to organize your belongings with smart, photo-powered cataloging.",
-  metadataBase: new URL("https://jsanchezmir.github.io/cubbe-web/"),
+  metadataBase: new URL("https://cubbe.app"),
   openGraph: {
     title: "Cubbe — Know where everything lives",
     description: "Organize your home, storage, and shared spaces with Cubbe.",

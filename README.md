@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-  <a href="https://jsanchezmir.github.io/cubbe-web/">Website</a> ·
-  <a href="https://jsanchezmir.github.io/cubbe-web/support">Support</a> ·
-  <a href="https://jsanchezmir.github.io/cubbe-web/privacy">Privacy</a>
+  <a href="https://cubbe.app">Website</a> ·
+  <a href="https://cubbe.app/support">Support</a> ·
+  <a href="https://cubbe.app/privacy">Privacy</a>
 </p>
 
 ## About Cubbe
@@ -54,11 +54,11 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 npm run build
 ```
 
-The project is configured for a static export and deploys to GitHub Pages through [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
+The project is configured for a static export and deploys to Vercel from the `main` branch.
 
 ## Project details
 
 - Framework: [Next.js](https://nextjs.org/)
-- Hosting: [GitHub Pages](https://pages.github.com/)
+- Hosting: [Vercel](https://vercel.com/)
 - Owner: Jordi Sanchez
 - Copyright: © 2026 Jordi Sanchez for Cubbe
