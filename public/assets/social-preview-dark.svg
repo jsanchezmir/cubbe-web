@@ -7,11 +7,11 @@
   <rect width="1200" height="630" fill="#09090B"/>
   <circle cx="1025" cy="-5" r="310" fill="#4F46E5" fill-opacity="0.2"/>
   <circle cx="110" cy="650" r="230" fill="#4F46E5" fill-opacity="0.12"/>
-  <rect x="74" y="72" width="92" height="92" rx="24" fill="#FAFAFA"/>
-  <image x="92" y="90" width="56" height="56" href="/assets/icon/cubbe-mark.svg"/>
-  <text x="198" y="134" class="display" fill="#FAFAFA" font-size="38" letter-spacing="-1.5">Cubbe</text>
-  <text x="74" y="330" class="display" fill="#FAFAFA" font-size="78">Know where</text>
-  <text x="74" y="414" class="display" fill="#FAFAFA" font-size="78">everything lives.</text>
+  <rect x="74" y="72" width="76" height="76" rx="20" fill="#FAFAFA"/>
+  <image x="89" y="87" width="46" height="46" href="/assets/icon/cubbe-mark.svg"/>
+  <text x="174" y="129" class="display" fill="#FAFAFA" font-size="44" letter-spacing="-1.5">Cubbe</text>
+  <text x="74" y="286" class="display" fill="#FAFAFA" font-size="78">Know where</text>
+  <text x="74" y="370" class="display" fill="#FAFAFA" font-size="78">everything lives.</text>
   <text x="78" y="490" class="body" fill="#A1A1AA" font-size="24">A calmer way to organize your home, storage, and shared spaces.</text>
   <rect x="74" y="548" width="132" height="4" rx="2" fill="#4F46E5"/>
   <text x="74" y="584" class="body" fill="#71717A" font-size="18">cubbe.app</text>
