@@ -66,8 +66,7 @@ h1 { max-width: 800px; margin: 0; font-size: clamp(58px, 9vw, 112px); line-heigh
 .about-links { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .about-links a { position: relative; display: flex; flex-direction: column; gap: 10px; padding: 24px 18px 24px 0; color: var(--accent); font-weight: 700; }
 .about-link-title { display: inline-flex; align-items: center; gap: 9px; }
-.about-link-title svg { width: 19px; height: 19px; fill: currentColor; stroke: currentColor; stroke-width: 1.7; }
-.about-link-title .social-icon-fill { fill: currentColor; stroke: none; }
+.about-link-title svg { width: 19px; height: 19px; fill: currentColor; stroke: currentColor; stroke-width: 1.7; flex: 0 0 auto; }
 .about-links a:hover .about-link-title svg { transform: translateY(-2px); }
 .about-link-arrow { position: absolute; top: 24px; right: 18px; font-size: 18px; transition: transform 160ms ease; }
 .about-links a:hover .about-link-arrow { transform: translate(2px, -2px); }
