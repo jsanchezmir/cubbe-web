@@ -1,5 +1,5 @@
 :root { --black: #fafafa; --white: #09090b; --muted: #3f3f46; --line: #d4d4d8; --indigo: #4f46e5; --iapislazuli: #0008FF; --accent: var(--iapislazuli); --indigo-soft: #4338ca; }
-:root[data-theme="dark"] { --black: #09090b; --white: #fafafa; --muted: #a1a1aa; --line: #27272a; --indigo: #635bff; --indigo-soft: #a5b4fc; }
+:root[data-theme="dark"] { --black: #09090b; --white: #fafafa; --muted: #a1a1aa; --line: #27272a; --indigo: #635bff; --iapislazuli: #292fff; --indigo-soft: #a5b4fc; }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body { margin: 0; background: var(--black); color: var(--white); font-family: Arial, sans-serif; }

@@ -27,7 +27,7 @@ export default function About() {
     <main className="page">
       <Header />
       <article className="about-page wrap">
-        <Link className="back" href="/">← Back to Cubbe</Link>
+        <Link className="back" href="/">← BACK TO CUBBE</Link>
 
         <header className="about-intro">
           <img className="about-photo" src="/assets/jordi-sanchez.png" alt="Jordi Sanchez" />

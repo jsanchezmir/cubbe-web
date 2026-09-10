@@ -5,7 +5,7 @@ import { Footer, Header } from "../components";
 export const metadata: Metadata = { title: "Privacy Policy" };
 
 export default function Privacy() {
-  return <main className="page"><Header /><article className="prose wrap"><Link className="back" href="/">← Back to Cubbe</Link><p className="eyebrow">Privacy</p><h1>Privacy policy</h1><p className="updated">Last updated: September 9, 2026</p>
+  return <main className="page"><Header /><article className="prose wrap"><Link className="back" href="/">← BACK TO CUBBE</Link><p className="eyebrow">Privacy</p><h1>Privacy policy</h1><p className="updated">Last updated: September 9, 2026</p>
     <h2>What Cubbe stores</h2><p>Cubbe stores the information you add to your account, including your name, email address, addresses, locations, boxes, items, photos, descriptions, and tags. This information is used to provide the organization and sharing features of the app.</p>
     <h2>Your content</h2><p>You are responsible for making sure that you have the rights and permissions needed to upload photos and other content. Do not upload content that you are not authorized to use or that contains sensitive information you do not want processed or shared through the app.</p>
     <h2>AI-assisted cataloging</h2><p>When you use the AI assistant, photos and related item information may be processed to identify useful details and suggest descriptions, categories, and tags. AI-generated suggestions may be inaccurate or incomplete. You should review and edit the results before saving or relying on them. Cubbe is not responsible for the content, classification, or consequences of an AI-generated suggestion.</p>
