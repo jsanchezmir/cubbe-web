@@ -1,0 +1,22 @@
+app/globals.css
+  h_a9c0dc1ee6ce6b 2
+app/about/page.tsx
+  h_a9c0dc1ee6ce6b 30
+app/privacy/page.tsx
+  h_a9c0dc1ee6ce6b 8
+app/support/page.tsx
+  h_a9c0dc1ee6ce6b 7
+app/terms/page.tsx
+  h_a9c0dc1ee6ce6b 8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "8fd7d33f6b26ffea171a8d97a11110131c7d2dbd",
+  "prompts": {},
+  "humans": {
+    "h_a9c0dc1ee6ce6b": {
+      "author": "Jordi Sánchez <23667568+jsanchezmir@users.noreply.github.com>"
+    }
+  }
+}
