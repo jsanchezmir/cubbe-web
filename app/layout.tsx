@@ -9,10 +9,21 @@ export const metadata: Metadata = {
   title: { default: "Cubbe — Know where everything lives", template: "%s — Cubbe" },
   description: "A calmer way to organize your belongings with smart, photo-powered cataloging.",
   metadataBase: new URL("https://cubbe.app"),
+  alternates: { canonical: "/" },
   openGraph: {
     title: "Cubbe — Know where everything lives",
     description: "Organize your home, storage, and shared spaces with Cubbe.",
     type: "website",
+    url: "https://cubbe.app",
+    siteName: "Cubbe",
+    locale: "en_US",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Cubbe — Know where everything lives" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Cubbe — Know where everything lives",
+    description: "Organize your home, storage, and shared spaces with Cubbe.",
+    images: ["/og-image.png"],
   },
 };
 
