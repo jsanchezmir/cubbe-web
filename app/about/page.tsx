@@ -15,13 +15,6 @@ const socialLinks = [
 
 const linkedinPath = Array.isArray(faLinkedinIn.icon[4]) ? faLinkedinIn.icon[4].join(" ") : faLinkedinIn.icon[4];
 
-function SocialIcon({ name }: { name: string }) {
-  if (name === "github") return <svg viewBox="0 0 24 24" aria-hidden="true"><path d={siGithub.path} /></svg>;
-  if (name === "instagram") return <svg viewBox="0 0 24 24" aria-hidden="true"><path d={siInstagram.path} /></svg>;
-  if (name === "linkedin") return <svg viewBox={`0 0 ${faLinkedinIn.icon[0]} ${faLinkedinIn.icon[1]}`} aria-hidden="true"><path d={linkedinPath} /></svg>;
-  return <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 5.5h17v13h-17zM4.5 6.5l7.5 6 7.5-6" /></svg>;
-}
-
 export default function About() {
   return (
     <main className="page">
@@ -57,7 +50,7 @@ export default function About() {
         <section className="about-links" aria-label="Social links">
           {socialLinks.map(([name, detail, url, icon]) => (
             <a href={url} key={name} target="_blank" rel="noreferrer">
-              <span className="about-link-title"><SocialIcon name={icon} />{name}</span>
+              <span className="about-link-title">{name}</span>
               <small>{detail}</small>
               <span className="about-link-arrow">↗</span>
             </a>
