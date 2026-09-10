@@ -1,0 +1,16 @@
+README.md
+  h_a9c0dc1ee6ce6b 36
+app/globals.css
+  h_a9c0dc1ee6ce6b 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "8c8e3bad632e24cdfa6da17363d786f23635c3c4",
+  "prompts": {},
+  "humans": {
+    "h_a9c0dc1ee6ce6b": {
+      "author": "Jordi Sánchez <23667568+jsanchezmir@users.noreply.github.com>"
+    }
+  }
+}
