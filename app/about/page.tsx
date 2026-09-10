@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { siGithub, siInstagram } from "simple-icons";
 import { Footer, Header } from "../components";
 
 export const metadata: Metadata = { title: "About Jordi Sanchez" };
@@ -11,11 +13,13 @@ const socialLinks = [
   ["Email", "jordi.sanchez@cubbe.app", "mailto:jordi.sanchez@cubbe.app", "email"],
 ];
 
+const linkedinPath = Array.isArray(faLinkedinIn.icon[4]) ? faLinkedinIn.icon[4].join(" ") : faLinkedinIn.icon[4];
+
 function SocialIcon({ name }: { name: string }) {
-  if (name === "github") return <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.18-3.37-1.18-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.35 1.09 2.92.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.03A9.56 9.56 0 0 1 12 8.01c.85 0 1.71.11 2.51.33 1.91-1.3 2.75-1.03 2.75-1.03.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z" /></svg>;
-  if (name === "linkedin") return <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.08 7.1a1.55 1.55 0 1 0 0-3.1 1.55 1.55 0 0 0 0 3.1ZM3.7 20.5h2.76V9.15H3.7V20.5ZM8.2 9.15v11.36h2.76v-5.62c0-1.48.28-2.91 2.11-2.91 1.8 0 1.82 1.69 1.82 3.01v5.52h2.76v-6.1c0-3-0.65-5.3-4.14-5.3-1.68 0-2.8.92-3.26 1.79h-.04V9.15H8.2Z" /></svg>;
-  if (name === "instagram") return <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.4" cy="6.7" r="1" className="social-icon-fill" /></svg>;
-  return <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" /><path d="m4 7 8 6 8-6" /></svg>;
+  if (name === "github") return <svg viewBox="0 0 24 24" aria-hidden="true"><path d={siGithub.path} /></svg>;
+  if (name === "instagram") return <svg viewBox="0 0 24 24" aria-hidden="true"><path d={siInstagram.path} /></svg>;
+  if (name === "linkedin") return <svg viewBox={`0 0 ${faLinkedinIn.icon[0]} ${faLinkedinIn.icon[1]}`} aria-hidden="true"><path d={linkedinPath} /></svg>;
+  return <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 5.5h17v13h-17zM4.5 6.5l7.5 6 7.5-6" /></svg>;
 }
 
 export default function About() {
