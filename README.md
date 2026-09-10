@@ -33,7 +33,7 @@ The AI assistant makes cataloging faster: take photos of your belongings and Cub
 
 ## Design direction
 
-- Minimal black, white, and indigo color system
+- Minimal black, white, and lapis lazuli color system
 - Bricolage Grotesque for expressive headings
 - Light mode by default, with a persistent light/dark theme selector
 - Responsive layout for mobile and desktop
