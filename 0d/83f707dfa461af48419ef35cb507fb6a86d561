@@ -1,0 +1,21 @@
+public/assets/social-preview-light.svg
+  s_bc2578b5345ec3::t_798f6168968475 1-18
+public/assets/social-preview-dark.svg
+  s_bc2578b5345ec3::t_798f6168968475 1-18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "0d83f707dfa461af48419ef35cb507fb6a86d561",
+  "prompts": {},
+  "sessions": {
+    "s_bc2578b5345ec3": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0863f-2e22-76a1-b2e8-9f1f1843d305",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Jordi Sánchez <23667568+jsanchezmir@users.noreply.github.com>"
+    }
+  }
+}
