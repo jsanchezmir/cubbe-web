@@ -1,0 +1,41 @@
+public/.well-known/apple-app-site-association
+  s_ddd50adfe84731::t_c300ec8ab84663 1-21
+.env.example
+  s_ddd50adfe84731::t_80523d4acf0155 1-5
+app/globals.css
+  h_a9c0dc1ee6ce6b 63,88
+  s_ddd50adfe84731::t_80523d4acf0155 77-79
+app/not-found.tsx
+  s_ddd50adfe84731::t_80523d4acf0155 1-24
+app/page.tsx
+  s_ddd50adfe84731::t_80523d4acf0155 4,25
+app/app-store.ts
+  s_ddd50adfe84731::t_80523d4acf0155 1-9
+app/layout.tsx
+  s_ddd50adfe84731::t_80523d4acf0155 4,29
+app/components.tsx
+  s_ddd50adfe84731::t_80523d4acf0155 4,7
+README.md
+  s_ddd50adfe84731::t_8f731d5e513c75 59-70
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "1c1130e331c39795b2f3b5bde0f12a0bc3ebedb2",
+  "prompts": {},
+  "humans": {
+    "h_a9c0dc1ee6ce6b": {
+      "author": "Jordi Sánchez <23667568+jsanchezmir@users.noreply.github.com>"
+    }
+  },
+  "sessions": {
+    "s_ddd50adfe84731": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0905c-684f-7e41-b24e-0ed97b650176",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Jordi Sánchez <23667568+jsanchezmir@users.noreply.github.com>"
+    }
+  }
+}
