@@ -1,0 +1,19 @@
+public/.well-known/apple-app-site-association
+  s_cce2c2792f3a84::t_b41d0d7a26e5da 6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "14e533aa541679ad961ff5a77b6225da3bddb10d",
+  "prompts": {},
+  "sessions": {
+    "s_cce2c2792f3a84": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0916d-8930-77b3-8f7c-1c749ce26f60",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Jordi Sánchez <23667568+jsanchezmir@users.noreply.github.com>"
+    }
+  }
+}
