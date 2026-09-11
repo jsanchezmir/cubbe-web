@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ThemeToggle } from "./theme-toggle";
+import { appStoreUrl } from "./app-store";
 
 export function Header() {
-  return <header className="site-header wrap"><Link className="brand" href="/"><span className="brand-mark"><Image src="/assets/icon/cubbe-mark.svg" alt="" width={22} height={22} /></span>Cubbe</Link><nav className="nav"><Link href="/#features">Features</Link><Link href="/#ai">AI assistant</Link><Link href="/support">Support</Link></nav><ThemeToggle /></header>;
+  return <header className="site-header wrap"><Link className="brand" href="/"><span className="brand-mark"><Image src="/assets/icon/cubbe-mark.svg" alt="" width={22} height={22} /></span>Cubbe</Link><nav className="nav"><Link href="/#features">Features</Link><Link href="/#ai">AI assistant</Link><Link href="/support">Support</Link><a href={appStoreUrl}>Download app</a></nav><ThemeToggle /></header>;
 }
 
 export function Footer() {

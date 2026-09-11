@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Footer, Header } from "./components";
+import { appStoreUrl } from "./app-store";
 
 const asset = (name: string) => `/assets/app-marketing-screenshots/${name}`;
 
@@ -21,6 +22,7 @@ export default function Home() {
           <h1>Know where everything lives.</h1>
           <p className="hero-copy">Cubbe is a calmer way to organize your home, storage, and shared spaces. Catalog what you own and find it when it matters.</p>
           <div className="actions">
+            <a className="button button-primary" href={appStoreUrl}>Download the app</a>
             <Link className="button button-primary" href="#features">Explore Cubbe</Link>
             <Link className="button button-secondary" href="/support">Get support</Link>
           </div>

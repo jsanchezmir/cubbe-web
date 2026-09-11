@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Bricolage_Grotesque, DM_Mono } from "next/font/google";
 import "./globals.css";
+import { appStoreBanner } from "./app-store";
 
 const bric = Bricolage_Grotesque({ subsets: ["latin"], variable: "--font-bric" });
 const mono = DM_Mono({ subsets: ["latin"], weight: ["400", "500"], variable: "--font-mono" });
@@ -25,6 +26,7 @@ export const metadata: Metadata = {
     description: "Organize your home, storage, and shared spaces with Cubbe.",
     images: ["/og-image.png"],
   },
+  other: appStoreBanner ? { "apple-itunes-app": appStoreBanner } : undefined,
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

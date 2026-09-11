@@ -1,0 +1,21 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "ZN5L962RD3.app.inside"
+        ],
+        "components": [
+          { "/": "/address/*" },
+          { "/": "/box/*" },
+          { "/": "/item/*" },
+          { "/": "/profile" },
+          { "/": "/dashboard" },
+          { "/": "/dashboard/user/*" },
+          { "/": "/linkaddress/*" },
+          { "/": "/observebox/*" }
+        ]
+      }
+    ]
+  }
+}
