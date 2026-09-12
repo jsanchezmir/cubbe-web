@@ -3,7 +3,7 @@
     "details": [
       {
         "appIDs": [
-          "ZN5L962RD3.app.cubbe"
+          "ZN5L962RD3.app.inside"
         ],
         "components": [
           { "/": "/address/*" },
