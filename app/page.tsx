@@ -51,18 +51,34 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section" id="ai">
+      <section className="section" id="creation">
         <div className="wrap ai-panel">
           <div>
-            <p className="eyebrow">Powered by AI</p>
+            <p className="eyebrow">Item creation</p>
             <div className="section-heading">
-              <h2>Catalog in a few photos.</h2>
-              <p>Take photos of your belongings and let Cubbe’s AI do the tedious part. It extracts useful details, creates item entries, and suggests tags and descriptions so your inventory stays useful from day one.</p>
+              <h2>Turn a photo into a useful item.</h2>
+              <p>Take a photo of what you own and let Cubbe’s AI do the tedious part. It extracts useful details, creates the item entry, and suggests tags and descriptions, so your inventory becomes useful from day one. Build your collection one item at a time without filling in every detail by hand, and keep a consistent record that is ready to search later.</p>
+            </div>
+            <Link className="text-link" href={appStoreUrl}>Start cataloging →</Link>
+          </div>
+          <div className="ai-card">
+            <Image src={asset("03-Catalog-by-Photo.png")} alt="Cubbe AI assistant cataloging items from a photo" fill sizes="(max-width: 760px) 90vw, 520px" />
+          </div>
+        </div>
+      </section>
+
+      <section className="section" id="ai">
+        <div className="wrap ai-panel ai-panel-reverse">
+          <div>
+            <p className="eyebrow">Powered search</p>
+            <div className="section-heading">
+              <h2>Ask for what you need in plain language.</h2>
+              <p>Search your selected address conversationally — “a red cap” or “something for camping.” Cubbe looks through your items, returns the most relevant matches as item cards, and lets you open an item to see its details. If you need a wider view, ask for more and keep exploring the results without starting over.</p>
             </div>
             <Link className="text-link" href="/support">Questions about the AI assistant →</Link>
           </div>
           <div className="ai-card">
-            <Image src={asset("03-Catalog-by-Photo.png")} alt="Cubbe AI assistant cataloging items from a photo" fill sizes="(max-width: 760px) 90vw, 520px" />
+            <Image src={asset("04-Every-Box-Searchable.png")} alt="Cubbe powered search finding an item across organized boxes" fill sizes="(max-width: 760px) 90vw, 520px" />
           </div>
         </div>
       </section>
