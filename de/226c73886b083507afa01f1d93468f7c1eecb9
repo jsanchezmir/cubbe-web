@@ -1,0 +1,38 @@
+app/components.tsx
+  h_a9c0dc1ee6ce6b 7
+app/globals.css
+  h_a9c0dc1ee6ce6b 11,43
+  s_b3938c0bb1535f::t_70d86339324995 31-34
+  s_b3938c0bb1535f::t_07c42b198df729 1-2,35-36
+app/page.tsx
+  s_b3938c0bb1535f::t_70d86339324995 26-27
+app/icon.svg
+  s_b3938c0bb1535f::t_0a33a0e3eda5ba 1-10
+public/assets/icon/cubbe-mark-dark.svg
+  s_b3938c0bb1535f::t_5522a752b82efa 1-19
+public/assets/icon/cubbe-mark-light.svg
+  s_b3938c0bb1535f::t_046f2d66607ce7 1-19
+public/assets/icon/cubbe-mark.svg
+  s_b3938c0bb1535f::t_a793e4820b96d7 1-18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "de226c73886b083507afa01f1d93468f7c1eecb9",
+  "prompts": {},
+  "humans": {
+    "h_a9c0dc1ee6ce6b": {
+      "author": "Jordi Sánchez <23667568+jsanchezmir@users.noreply.github.com>"
+    }
+  },
+  "sessions": {
+    "s_b3938c0bb1535f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a09af8-1102-7823-9e9c-59812a5d90a7",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Jordi Sánchez <23667568+jsanchezmir@users.noreply.github.com>"
+    }
+  }
+}
