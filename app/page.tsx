@@ -23,8 +23,8 @@ export default function Home() {
           <p className="hero-copy">Cubbe is a calmer way to organize your home, storage, and shared spaces. Catalog what you own and find it when it matters.</p>
           <div className="actions">
             <a className="button button-primary" href={appStoreUrl}>Download the app</a>
-            <Link className="button button-primary" href="#features">Explore Cubbe</Link>
-            <Link className="button button-secondary" href="/support">Get support</Link>
+            <Link className="button button-peach" href="#features">Explore Cubbe</Link>
+            <Link className="button button-neutral" href="/support">Get support</Link>
           </div>
         </div>
         <div className="hero-shot">
