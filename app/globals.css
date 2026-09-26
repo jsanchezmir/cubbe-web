@@ -45,9 +45,9 @@ h1 { max-width: 800px; margin: 0; font-size: clamp(58px, 9vw, 112px); line-heigh
 .feature p { margin: 0; color: var(--muted); line-height: 1.55; }
 .ai-panel { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
 .ai-panel-reverse > .ai-card { order: -1; }
-.ai-card { position: relative; min-height: 570px; border: 1px solid var(--line); border-radius: 22px; overflow: hidden; background: #17172b; box-shadow: 0 25px 70px #00000055; }
+.ai-card { position: relative; width: min(100%, 400px); min-height: 570px; justify-self: center; border: 1px solid var(--line); border-radius: 22px; overflow: hidden; background: #17172b; box-shadow: 0 25px 70px #00000055; }
 .ai-card img { object-fit: cover; object-position: top center; }
-.gallery-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.gallery-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
 .gallery-grid img { width: 100%; height: auto; border-radius: 22px; box-shadow: 0 22px 55px #00000055; }
 .cta { display: flex; justify-content: space-between; gap: 30px; align-items: center; padding: 35px 0 100px; }
 .cta h2 { max-width: 550px; margin: 0; font-size: clamp(32px, 4vw, 52px); line-height: 1; }

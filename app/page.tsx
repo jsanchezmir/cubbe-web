@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Footer, Header } from "./components";
 import { appStoreUrl } from "./app-store";
 
-const asset = (name: string) => `/assets/app-marketing-screenshots/${name}`;
+const asset = (name: string) => `/assets/app-marketing-screenshots-v2/${name}`;
 
 const features = [
   ["01", "A place for everything", "Build a simple map of your belongings across addresses, rooms, locations, and boxes."],
@@ -28,7 +28,7 @@ export default function Home() {
           </div>
         </div>
         <div className="hero-shot">
-          <Image src={asset("01-Find-It-Fast.png")} alt="Cubbe home inventory screen" fill priority sizes="(max-width: 760px) 90vw, 440px" />
+          <Image src={asset("01-Know-where-it-lives.png")} alt="Cubbe organizing belongings by space" fill priority sizes="(max-width: 760px) 90vw, 440px" />
         </div>
       </section>
 
@@ -62,7 +62,7 @@ export default function Home() {
             <Link className="text-link" href={appStoreUrl}>Start cataloging →</Link>
           </div>
           <div className="ai-card">
-            <Image src={asset("03-Catalog-by-Photo.png")} alt="Cubbe AI assistant cataloging items from a photo" fill sizes="(max-width: 760px) 90vw, 520px" />
+            <Image src={asset("03-Catalog-by-photo.png")} alt="Cubbe cataloging an item with AI from one photo" fill sizes="(max-width: 760px) 90vw, 520px" />
           </div>
         </div>
       </section>
@@ -78,7 +78,7 @@ export default function Home() {
             <Link className="text-link" href="/support">Questions about the AI assistant →</Link>
           </div>
           <div className="ai-card">
-            <Image src={asset("04-Every-Box-Searchable.png")} alt="Cubbe powered search finding an item across organized boxes" fill sizes="(max-width: 760px) 90vw, 520px" />
+            <Image src={asset("06-Find-it-in-a-question.png")} alt="Cubbe search assistant finding an item from a question" fill sizes="(max-width: 760px) 90vw, 520px" />
           </div>
         </div>
       </section>
@@ -90,8 +90,9 @@ export default function Home() {
             <h2>One organized view.</h2>
           </div>
           <div className="gallery-grid">
-            <Image src={asset("02-A-Place-Map.png")} alt="Cubbe map of organized spaces" width={1242} height={2688} />
-            <Image src={asset("05-Shared-Spaces.png")} alt="Cubbe shared spaces feature" width={1242} height={2688} />
+            <Image src={asset("02-Map-every-space.png")} alt="Cubbe organizing every space from rooms to boxes" width={1290} height={2796} />
+            <Image src={asset("04-Keep-every-detail.png")} alt="Cubbe keeping detailed item records" width={1290} height={2796} />
+            <Image src={asset("05-See-your-whole-inventory.png")} alt="Cubbe showing the whole inventory at a glance" width={1290} height={2796} />
           </div>
         </div>
       </section>
