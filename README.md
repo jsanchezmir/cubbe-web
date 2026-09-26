@@ -30,6 +30,7 @@ The AI assistant makes cataloging faster: take photos of your belongings and Cub
 | `/support` | Customer support and common questions |
 | `/privacy` | Privacy policy |
 | `/terms` | Terms of use |
+| `/content-rights` | Content and intellectual property |
 
 ## Design direction
 
