@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Footer, Header } from "./components";
 import { appStoreUrl } from "./app-store";
 
-const asset = (name: string) => `/assets/app-marketing-screenshots-v2/${name}`;
+const asset = (name: string) => `/assets/app-marketing-screenshots-v3/${name}`;
 
 const features = [
   ["01", "A place for everything", "Build a simple map of your belongings across addresses, rooms, locations, and boxes."],
@@ -90,9 +90,9 @@ export default function Home() {
             <h2>One organized view.</h2>
           </div>
           <div className="gallery-grid">
-            <Image src={asset("02-Map-every-space.png")} alt="Cubbe organizing every space from rooms to boxes" width={1290} height={2796} />
-            <Image src={asset("04-Keep-every-detail.png")} alt="Cubbe keeping detailed item records" width={1290} height={2796} />
-            <Image src={asset("05-See-your-whole-inventory.png")} alt="Cubbe showing the whole inventory at a glance" width={1290} height={2796} />
+            <Image src={asset("02-Map-every-space.png")} alt="Cubbe organizing every space from rooms to boxes" width={1284} height={2778} />
+            <Image src={asset("04-Keep-every-detail.png")} alt="Cubbe keeping detailed item records" width={1284} height={2778} />
+            <Image src={asset("05-See-your-whole-inventory.png")} alt="Cubbe showing the whole inventory at a glance" width={1284} height={2778} />
           </div>
         </div>
       </section>
