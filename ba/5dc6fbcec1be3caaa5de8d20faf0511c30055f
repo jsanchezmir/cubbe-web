@@ -1,0 +1,19 @@
+app/page.tsx
+  s_c2556e567833f3::t_e08018a575d3f1 6,93-95
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "ba5dc6fbcec1be3caaa5de8d20faf0511c30055f",
+  "prompts": {},
+  "sessions": {
+    "s_c2556e567833f3": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0de92-986d-76f2-b398-58232e7d5e66",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Jordi Sánchez <23667568+jsanchezmir@users.noreply.github.com>"
+    }
+  }
+}
